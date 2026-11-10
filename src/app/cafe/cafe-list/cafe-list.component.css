@@ -1,0 +1,56 @@
+.cafe-table-wrapper {
+  max-width: 68%;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .cafe-table-wrapper {
+    max-width: 100%;
+  }
+}
+
+.cafe-table {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.cafe-table thead th {
+  background-color: #333b41;
+  border-color: #333b41;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 0.65rem 0.85rem;
+}
+
+.cafe-table tbody td,
+.cafe-table tbody th {
+  padding: 0.65rem 0.85rem;
+  vertical-align: middle;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.col-num {
+  width: 7%;
+}
+
+.col-name {
+  width: 38%;
+}
+
+.col-type {
+  width: 25%;
+}
+
+.col-region {
+  width: 30%;
+}
+
+.totals-section {
+  margin-top: 1.25rem;
+}
+
+.total-text {
+  font-size: 0.95rem;
+  margin-bottom: 0.35rem;
+  color: #1a1a1a;
+}

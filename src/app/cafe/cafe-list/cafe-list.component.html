@@ -1,0 +1,25 @@
+<div class="cafe-table-wrapper">
+  <table class="table cafe-table">
+    <thead class="table-dark">
+      <tr>
+        <th scope="col" class="col-num">#</th>
+        <th scope="col" class="col-name">Nombre</th>
+        <th scope="col" class="col-type">Tipo</th>
+        <th scope="col" class="col-region">Región</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let cafe of cafes">
+        <th scope="row" class="fw-bold col-num">{{ cafe.id }}</th>
+        <td>{{ cafe.nombre }}</td>
+        <td>{{ cafe.tipo }}</td>
+        <td>{{ cafe.region }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="totals-section mt-3">
+    <p class="total-text mb-1">Total café de origen: {{ totalCafeOrigen }}</p>
+    <p class="total-text mb-1">Total café blend: {{ totalCafeBlend }}</p>
+  </div>
+</div>
